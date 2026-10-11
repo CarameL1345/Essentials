@@ -156,6 +156,18 @@ MonoBehaviour:
           m_StringArgument: SpikeHit
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 69fe0e6389531d649b6a3c4bf404b738, type: 2}
+        m_TargetAssemblyTypeName: SimpleFloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: -0.1
+          m_StringArgument: SpikeHit
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!198 &1627246966444190659
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4964,7 +4976,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6685179559572725045}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 898aaee103ac0364890a9a28969759ce, type: 2}
   m_CullingMode: 0
